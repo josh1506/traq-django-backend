@@ -29,11 +29,10 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['traq-django-server.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['traq-django-backend.herokuapp.com', '127.0.0.1']
 
 CORS_ALLOWED_ORIGINS = [
-    'https://traq-django-server.herokuapp.com',
-    'https://traq-react-frontend.herokuapp.com',
+    'https://traq.vercel.app',
     'http://localhost:3000'
 ]
 
