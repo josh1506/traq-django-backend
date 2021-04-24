@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'traq.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': dj_database_url.config(),
+        'ENGINE': 'django.db.backends.postgresql',
         'HOST': env('HOST'),
         'PORT': env('PORT'),
         'NAME': env('NAME'),
